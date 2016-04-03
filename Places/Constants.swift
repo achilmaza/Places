@@ -12,7 +12,7 @@ class Constants: NSObject {
     
     struct Keys {
         
-        static let GoogleKey = "AIzaSyBzJ4Rl2mmMCtrYh1qRXXso4tAjC46oNII"
+        static let GoogleKey = "place google api key here"
     }
     
     struct Url {
