@@ -32,6 +32,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         self.locationManager?.delegate = self
         self.locationManager?.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager?.requestWhenInUseAuthorization()
+        self.locationManager?.distanceFilter = 100.0
     }
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
