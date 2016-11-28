@@ -91,24 +91,24 @@ class PlaceJSONParser: NSObject {
         if let details = details{
          
             if let website = details["website"]{
-                print(website)
+                //print(website)
                 place?.website = website as? String
             }
             
             if let priceLevel = details["price_level"]{
-                print(priceLevel)
+                //print(priceLevel)
                 place?.priceLevel = priceLevel.doubleValue
             }
             
             if let address = details["formatted_address"]{
-                print(address)
+                //print(address)
                 place?.address = address as? String
                 
             }
             
             if let addressComponents = details["address_components"]{
                 
-                print(addressComponents)
+                //print(addressComponents)
                 
             }
             

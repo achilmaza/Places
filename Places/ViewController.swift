@@ -42,12 +42,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         if let currentLocation: CLLocation = locations.last {
             
-            print(currentLocation)
+            //print(currentLocation)
             latitude = currentLocation.coordinate.latitude
             longitude = currentLocation.coordinate.longitude
         
-            print(latitude)
-            print(longitude)
+           //print(latitude)
+            //print(longitude)
             
             getPlaces()
         }
@@ -78,7 +78,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                             (response, error) -> Void in
                             
                             let address = response?.firstResult()
-                            print(address)
+                            //print(address)
                             
                         })
                         

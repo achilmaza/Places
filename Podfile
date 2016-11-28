@@ -1,6 +1,9 @@
-platform :ios, '8.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
 use_frameworks!
 
-pod 'SwiftyJSON'
-pod 'GoogleMaps'
-pod 'Alamofire', '~> 3.0.0'
+target 'Places' do
+	pod 'SwiftyJSON'
+	pod 'GoogleMaps'
+	pod 'Alamofire', '~> 3.0'
+end

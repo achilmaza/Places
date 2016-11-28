@@ -88,8 +88,8 @@ class PlaceDetailsViewController: UIViewController, GMSMapViewDelegate{
         //customize navigation bar 
         self.navigationController?.navigationBar.barTintColor = UIColor.whiteColor()
         self.navigationController?.navigationBar.tintColor = UIColor.grayColor()
-        let navFont: UIFont = UIFont(name:"Avenir-Heavy", size:19.0)!
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.grayColor(), NSFontAttributeName: navFont]
+        //let navFont: UIFont = UIFont(name:"Avenir-Heavy", size:19.0)
+        //self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.grayColor(), NSFontAttributeName: navFont]
         
     }
     

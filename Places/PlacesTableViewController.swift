@@ -76,6 +76,15 @@ class PlacesTableViewController: UITableViewController {
                 cell.photo.image = place.photo
             }
             
+            var locations = [String]();
+            locations.append("Hello");
+            print(locations);
+            
+            var locations2:[String] = [];
+            locations2.append("Hi");
+            print(locations2);
+            
+            
             
             //Get Icon
             //Get image in the background and as needed for display.
@@ -151,6 +160,7 @@ class PlacesTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
 
+    
         //push to detail view controller
         let storyboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
         if let placeDetailsVC = storyboard.instantiateViewControllerWithIdentifier("PlaceDetailsViewController") as? PlaceDetailsViewController {
